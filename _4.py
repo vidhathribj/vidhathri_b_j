@@ -31,6 +31,24 @@ print(a>0 and b<54)
 print(a>4 or b<4)
 print(a>0 or b<4)
 print(a>0 or b<5)
+print(not(b<a))
+
+#Membership Operators
+#in and not in
+print("Membership Operators")
+string="Python"
+print("P" in string)
+print("P" not in string)
+
+#Bitwise operator
+a=3
+b=4
+print(a & b)
+print(a|b)
+print(~a)
+print(a<<1)
+print(a>>1)
+
 
 
 
